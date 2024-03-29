@@ -8,6 +8,25 @@ class Ticket:
         self.visitorCategory = visitorCategory
         self.groupSize = groupSize
 
+    def setEvent(self, event):
+        self.event = event
+
+    def setVisitorCategory(self, visitorCategory):
+        self.visitorCategory = visitorCategory
+
+    def setGroupSize(self, groupSize):
+        self.groupSize = groupSize
+
+    # Getters
+    def getEvent(self):
+        return self.event
+
+    def getVisitorCategory(self):
+        return self.visitorCategory
+
+    def getGroupSize(self):
+        return self.groupSize
+
     def calculatePrice(self):
         base = self.event.price
 
