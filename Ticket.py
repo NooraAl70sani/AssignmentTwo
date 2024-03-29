@@ -17,7 +17,6 @@ class Ticket:
     def setGroupSize(self, groupSize):
         self.groupSize = groupSize
 
-    # Getters
     def getEvent(self):
         return self.event
 
