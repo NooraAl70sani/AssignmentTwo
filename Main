@@ -1,0 +1,5 @@
+from Louvre import Louvre
+
+if __name__ == "__main__":
+    museum = Louvre()
+    museum.main()
